@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  :root {
+  --ackground: #C68D6D;
+  --Nariz:#C68D6D;
+  --ackground-color: #8a3e11;
+  --winnie-dark-color: #e89a2c;
+  }
+   
+    .centro{
+        background-color:var(--ackground-color);
+        width: 250px;
+        height: 320px;
+        border-radius: 60%;
+        position: absolute;
+        z-index: 10;
+         left: 50%;
+        top: 50%;
+      transform: translate(-50%, -50%);
+       -webkit-transform: translate(-50%, -50%);
+       border: 1px solid var(--winnie-dark-color);
+    
+    }
+    
+   .Cabeza{
+        background-color: var(--ackground-color);
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        position: absolute;
+        top:-130px ;
+        left: 12%;
+        border: 1px solid var(--ackground);
+        box-shadow: 0px 10px 100px 1px #381907 ;
+       
+    }
+    .circulo{
+        background-color: var(--winnie-dark-color);
+        width: 125px;
+        height: 160px;
+        border-radius: 50%;
+        position: absolute;
+        top: 80px;
+        left: 25%;
+    }
+    .orejaI{
+        background-color:var(--ackground-color);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -1;
+        left: calc(50% - 100px);
+        border: 1px solid var(--ackground);
+    }
+
+    .OrejaD{
+        background-color: var(--ackground-color);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -1;
+        right: calc(50% - 100px);
+        border: 1px solid var(--ackground);
+    }
+    .OrejaD div{
+      width: 30px;
+      height: 30px;
+      background: rgb(245, 0, 0);
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    .orejaI div{
+      width: 30px;
+      height: 30px;
+      background: rgb(245, 0, 0);
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .ojos{
+        background-color:white;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        
+    }
+    .ojos div{
+      background-color:brown;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        position: absolute;
+       top: 50%;
+       left: 50%;
+        
+    }
+    .ojoI{
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        right: 100px;
+        
+    }
+    .ojoI div{
+      background-color:brown;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        position: absolute;
+       top: 50%;
+       left: 50%;
+        
+    }
+    .Nariz{
+      background-color:var(--Nariz);
+        width: 80px;
+        height: 60px;
+        border-radius: 50%;
+        position: absolute;
+       top: 70%;
+       left: 50%;
+       transform: translate(-45% , -50%);
+    }
+    .Nariz div{
+      background-color:brown;
+        width: 15px;
+        height: 10px;
+        border-radius: 50%;
+        position: absolute;
+        top: 10%;
+       left: 50%;
+       transform: translate(-45% , -50%);
+       
+    }
+    .BrazoI{
+      background-color: var(--ackground-color);
+         width: 60px;
+        height: 150px;
+        border-radius:100%;
+        position: absolute;
+        z-index: -1;
+        top: 16px;
+        right: 208px;
+        transform: rotate(45deg);
+        
+        
+    }
+    .BrazoD{
+      background-color: var(--ackground-color);
+         width: 60px;
+        height: 150px;
+        border-radius:100%;
+        position: absolute;
+        top: 16px;
+        left: 208px;
+        transform: rotate(-45deg);
+        z-index: -1;
+        
+    }
+    .PiernaI{
+        background-color: var(--ackground-color);
+        width: 60px;
+        height: 90px;
+        border-radius:100%;
+        position: absolute;
+        top: 250px;
+        right: 180px;
+    }
+    .Piernad{
+        background-color:  var(--ackground-color);
+        width: 60px;
+        height: 90px;
+        border-radius:100%;
+        position: absolute;
+        top: 250px;
+        left: 180px;
+    }
+    .pie{
+        background-color: var(--winnie-dark-color);
+        width: 60px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        top: 280px;
+        right: 200px;
+    }
+    .pie2{
+        background-color: var(--winnie-dark-color);
+        width: 60px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        top: 280px;
+        left: 200px;
+    }
+    
+
+
+
+</style>
+<body>
+    <div>
+        
+
+       
+        <div class="centro">   
+            <div class="Cabeza">   
+                <div class="ojos">   
+                  <div>
+                      
+                  </div>
+                </div>
+        
+                <div class="ojoI">   
+                    <div>
+
+                    </div>
+                </div>
+
+                <div class="orejaI">   
+                  <div>
+
+                  </div>
+                </div>
+        
+                <div class="OrejaD">   
+                  <div>
+
+                  </div>
+                </div>
+
+                <div class="Nariz">
+                  <div>
+
+                  </div>
+                </div>
+
+            </div>
+
+            <div class="BrazoI">
+
+            </div>
+
+            <div class="BrazoD">
+
+            </div>
+
+            <div class="PiernaI">   
+
+            </div>
+
+            <div class="Piernad">   
+
+            </div>
+
+            <div class="pie">   
+    
+            </div>
+    
+            <div class="pie2">   
+    
+            </div>
+
+            <div class="circulo">
+
+            </div>
+        </div>
+        
+
+        
+
+        <div>   
+
+        </div>
+    </div>
+</body>
+</html>
